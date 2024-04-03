@@ -1,4 +1,4 @@
-import { useId } from "react";
+import { v4 as uuidV4 } from 'uuid';
 import PropTypes from "prop-types";
 import Waveform from './components/waveform';
 import Controllers from './components/controllers';
@@ -12,7 +12,7 @@ export const VoiceRecorder: React.FC<VoiceRecorderProps> = (props) => {
     width,
     ...rest
   } = props;
-  const id = useId();
+  const id = uuidV4()
 
   const mainContainerStyleComplete = {
     ...mainContainerStyle,

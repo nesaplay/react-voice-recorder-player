@@ -51,7 +51,8 @@
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-timer-hook": "^3.0.5",
-    "sass": "^1.57.1"
+    "sass": "^1.57.1",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",
@@ -59,6 +60,7 @@
     "@types/node": "^18.15.3",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
+    "@types/uuid": "^9.0.8",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@vitejs/plugin-react": "^3.0.0",
     "eslint": "^8.36.0",
